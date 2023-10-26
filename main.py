@@ -18,7 +18,7 @@ def main():
         menu_option = int(input('Please enter an option: '))
         if menu_option == 1:
             password = input('Please enter your password to encode: ')
-            encode_pass(password)
+            encoded_pass = encode_pass(password)
             print("Your password has been encoded and stored!")
 
 
